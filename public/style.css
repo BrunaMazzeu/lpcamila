@@ -792,6 +792,76 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Pricing Section */
+
+/* Timer de Escassez */
+.urgency-timer {
+    background: linear-gradient(135deg, hsl(0, 84%, 60%, 0.1) 0%, hsl(45, 85%, 60%, 0.1) 100%);
+    border: 1px solid hsl(0, 84%, 60%, 0.3);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.timer-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: var(--destructive);
+}
+
+.timer-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-number {
+    font-size: 2rem;
+    font-weight: 700;
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+}
+
+.time-label {
+    font-size: 0.75rem;
+    color: var(--muted-foreground);
+    margin-top: 0.25rem;
+}
+
+.time-separator {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.timer-message {
+    font-size: 0.875rem;
+    color: var(--destructive);
+    font-weight: 600;
+}
+
+/* Efeito pulsante quando estiver acabando */
+.urgency-timer.ending {
+    animation: pulse 1s ease-in-out infinite;
+    border-color: var(--destructive);
+}
+
 .pricing-section {
     background: var(--background);
 }

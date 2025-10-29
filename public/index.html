@@ -120,7 +120,7 @@
         <div class="container section-padding">
             <div class="product-grid">
                 <div class="product-image fade-up">
-                    <img src="../src/assets/ebook-mockup.png" alt="E-book Círculo Cromático Descomplicado - Mockup 3D" />
+                    <img src="/assets/images/ebookcamila.png" alt="E-book Círculo Cromático Descomplicado - Mockup 3D" />
                 </div>
 
                 <div class="product-content fade-up" style="animation-delay: 0.2s;">
@@ -356,7 +356,7 @@
         <div class="container section-padding">
             <div class="author-card fade-up">
                 <div class="author-image">
-                    <img src="../src/assets/camila-baggio.png" alt="Camila Baggio - Branding & Image Specialist" />
+                    <img src="/assets/images/camilabaggio.png" alt="Camila Baggio - Branding & Image Specialist" />
                 </div>
 
                 <div class="author-content">
@@ -400,7 +400,7 @@
                 <p class="testimonial-text">"Sempre achei esse assunto impossível, mas com esse e-book finalmente consegui entender as combinações! Já montei looks que nunca imaginei."</p>
                 <div class="testimonial-author">
                     <div class="author-avatar">
-                        <img src="../src/assets/juliana-s.jpg" alt="Juliana S." />
+                        <img src="/assets/images/juliana.png" alt="Juliana S." />
                     </div>
                     <div class="author-info">
                         <p class="author-name-small">Juliana S.</p>
@@ -416,7 +416,7 @@
                 <p class="testimonial-text">"Mudou completamente minha forma de trabalhar com sombras. Agora consigo realçar os olhos das clientes de forma estratégica!"</p>
                 <div class="testimonial-author">
                     <div class="author-avatar">
-                        <img src="../src/assets/mariana-l.jpg" alt="Mariana L." />
+                        <img src="/assets/images/maquiadora.png" alt="Mariana L." />
                     </div>
                     <div class="author-info">
                         <p class="author-name-small">Mariana L.</p>
@@ -432,7 +432,7 @@
                 <p class="testimonial-text">"Finalmente entendi como me vestir com mais confiança! As explicações são claras e os exemplos práticos fazem toda a diferença."</p>
                 <div class="testimonial-author">
                     <div class="author-avatar">
-                        <img src="../src/assets/paula-r.jpg" alt="Paula R." />
+                        <img src="/assets/images/empresaria.png" alt="Paula R." />
                     </div>
                     <div class="author-info">
                         <p class="author-name-small">Paula R.</p>
@@ -445,87 +445,111 @@
 </section>
 
     <!-- Pricing Section -->
-    <section id="checkout" class="pricing-section">
-        <div class="container section-padding">
-            <div class="pricing-card fade-up">
-                <div class="pricing-header">
-                    <div class="urgency-badge">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<section id="checkout" class="pricing-section">
+    <div class="container section-padding">
+        <div class="pricing-card fade-up">
+            <div class="pricing-header">
+                <div class="urgency-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                    Oferta de Lançamento
+                </div>
+                
+                <!-- Timer de Escassez -->
+                <div class="urgency-timer fade-up">
+                    <div class="timer-header">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
                         </svg>
-                        Oferta de Lançamento
+                        <span>Oferta expira em:</span>
                     </div>
-                    
-                    <h2 class="pricing-title">
-                        Invista no seu <span class="gradient-text">estilo</span>
-                    </h2>
-                    <p class="pricing-subtitle">Transforme sua relação com as cores hoje mesmo</p>
-                </div>
-
-                <div class="pricing-body">
-                    <div class="price-section">
-                        <p class="old-price">De R$ 39,90</p>
-                        <div class="current-price">
-                            <span class="gradient-text">R$ 19,90</span>
+                    <div class="timer-display">
+                        <div class="time-unit">
+                            <span class="time-number" id="minutes">15</span>
+                            <span class="time-label">minutos</span>
                         </div>
-                        <p class="discount-label">Economize 50% no lançamento</p>
+                        <div class="time-separator">:</div>
+                        <div class="time-unit">
+                            <span class="time-number" id="seconds">00</span>
+                            <span class="time-label">segundos</span>
+                        </div>
                     </div>
-
-                    <div class="features-included">
-                        <div class="included-item">
-                            <div class="check-icon-small">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M20 6L9 17l-5-5"/>
-                                </svg>
-                            </div>
-                            <p>Acesso imediato ao e-book completo</p>
-                        </div>
-                        <div class="included-item">
-                            <div class="check-icon-small">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M20 6L9 17l-5-5"/>
-                                </svg>
-                            </div>
-                            <p>Formato PDF para todos os dispositivos</p>
-                        </div>
-                        <div class="included-item">
-                            <div class="check-icon-small">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M20 6L9 17l-5-5"/>
-                                </svg>
-                            </div>
-                            <p>Conteúdo visual e prático</p>
-                        </div>
-                        <div class="included-item">
-                            <div class="check-icon-small">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M20 6L9 17l-5-5"/>
-                                </svg>
-                            </div>
-                            <p>Exemplos aplicáveis para roupas e maquiagem</p>
-                        </div>
-                        <div class="included-item">
-                            <div class="check-icon-small">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M20 6L9 17l-5-5"/>
-                                </svg>
-                            </div>
-                            <p>Sem mensalidades ou cobranças recorrentes</p>
-                        </div>
+                    <div class="timer-message">
+                        ⚠️ Preço sobe para R$ 39,90 após o timer!
                     </div>
                 </div>
-
-                <button class="btn-primary btn-full glow-btn" onclick="window.open('https://pay.kiwify.com.br/seu-link-aqui', '_blank')">
-                    Quero dominar o círculo cromático agora!
-                    <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                    </svg>
-                </button>
-
-                <p class="secure-payment">🔒 Pagamento seguro via Kiwify | ✅ Acesso instantâneo</p>
+                
+                <h2 class="pricing-title">
+                    Invista no seu <span class="gradient-text">estilo</span>
+                </h2>
+                <p class="pricing-subtitle">Transforme sua relação com as cores hoje mesmo</p>
             </div>
+
+            <div class="pricing-body">
+                <div class="price-section">
+                    <p class="old-price">De R$ 39,90</p>
+                    <div class="current-price">
+                        <span class="gradient-text">R$ 19,90</span>
+                    </div>
+                    <p class="discount-label">Economize 50% no lançamento</p>
+                </div>
+
+                <div class="features-included">
+                    <div class="included-item">
+                        <div class="check-icon-small">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <p>Acesso imediato ao e-book completo</p>
+                    </div>
+                    <div class="included-item">
+                        <div class="check-icon-small">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <p>Formato PDF para todos os dispositivos</p>
+                    </div>
+                    <div class="included-item">
+                        <div class="check-icon-small">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <p>Conteúdo visual e prático</p>
+                    </div>
+                    <div class="included-item">
+                        <div class="check-icon-small">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <p>Exemplos aplicáveis para roupas e maquiagem</p>
+                    </div>
+                    <div class="included-item">
+                        <div class="check-icon-small">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"/>
+                            </svg>
+                        </div>
+                        <p>Sem mensalidades ou cobranças recorrentes</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-primary btn-full glow-btn" onclick="window.open('https://pay.kiwify.com.br/seu-link-aqui', '_blank')">
+                Quero dominar o círculo cromático agora!
+                <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </button>
+
+            <p class="secure-payment">🔒 Pagamento seguro via Kiwify | ✅ Acesso instantâneo</p>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- FAQ Section -->
     <section class="faq-section">
@@ -617,8 +641,8 @@
     <footer class="footer">
         <div class="container footer-content">
             <p class="footer-name gradient-text">Camila Baggio</p>
-            <p class="footer-role">Branding & Image Specialist</p>
-            <p class="footer-copyright">© 2025 Camila Baggio. Todos os direitos reservados.</p>
+            <p class="footer-role">© 2025 Camila Baggio. Todos os direitos reservados | Especialista em Imagem e Branding</p>
+            <p class="footer-">© 2025 Camila Baggio. Todos os direitos reservados.</p>
         </div>
     </footer>
 
